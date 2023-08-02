@@ -44,5 +44,3 @@ def run_script():
 &emsp;&emsp;无
 
 **返回值：**
-
-&emsp;&emsp;无
