@@ -21,7 +21,7 @@ ___
 
 **返回值：**
 
-&emsp;&emsp;返回值类型[OUT]: 返回值介绍
+&emsp;&emsp;return - 返回值类型[OUT]: 返回值介绍
 
 ``` python {.line-numbers}
 参考代码
