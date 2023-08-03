@@ -2,11 +2,12 @@
 &emsp;&emsp;对应 [**<font color=RoyalBlue>官方网页</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_REventCallback)。
 &ensp;&ensp;&ensp;&ensp;Corresponding [**<font color=RoyalBlue>official page</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_REventCallback).
 
-&emsp;&emsp;最后编辑：2023.08.02
-&ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.02
+&emsp;&emsp;最后编辑：2023.08.03
+&ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.03
 ___
 ### 介绍 - Description
-&emsp;&emsp;该类负责一些系统事件的回调管理。根据官方文档的说法，如果将 REventCallback 创建为局部变量会导致 iClone 的奔溃。回调函数中出现的错误也会导致 iClone 的奔溃，且不会有警告和报错，于是官方建议使用 Python 的 try-except 语法来捕获异常。
+&emsp;&emsp;该类负责一些系统事件的回调管理。根据官方文档的说法和本人亲测，如果将 REventCallback 或它的子类创建为局部变量会导致 iClone 的崩溃。回调函数中出现的错误也会导致 iClone 的崩溃，于是官方建议使用 Python 的 try-except 语法来捕获异常。
+&emsp;&emsp;**<font color=Red>警告：请勿将该类或子类创建为局部变量。</font>**
 ___
 ### 类成员 - Class Methods
 #### <div style="background: lightgray; padding: 8px;">RLPy.REventCallback.OnAfterFileLoaded(self, nFileType)</div>
