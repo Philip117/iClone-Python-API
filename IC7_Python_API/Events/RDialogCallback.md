@@ -9,6 +9,7 @@ ___
 &emsp;&emsp;这个类负责 RDialog 窗口的回调管理，只有三个回调函数：OnDialogShow()、OnDialogHide() 和 OnDialogClose()，分别在窗口显示、隐藏和关闭时触发。根据官方文档的说法和本人亲测，如果将 RDialogCallback 或它的子类创建为局部变量会导致 iClone 的崩溃，且不会有警告和报错，一般会在窗口关闭时崩溃。虽然官方文档建议使用 Python 的 try-except 语法来捕获异常，但是因为错误原因并不在回调函数内部，回调函数内的代码在崩溃前仍能正确执行，所以在回调内部捕获异常也没用。
 
 &emsp;&emsp;**$\color{red}警告：请勿将该类或子类创建为局部变量。$**
+$\color{red}{警告：请勿将该类或子类创建为局部变量。}$
 ___
 ### 类成员 - Class Methods
 #### <div style="background: lightgray; padding: 8px;">RLPy.RDialogCallback.OnDialogShow(self)</div>
