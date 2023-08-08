@@ -40,7 +40,10 @@ def run_script():
     rl_dialog.RegisterEventCallback(dialog_callback)
     rl_dialog.Show()
 ```
-#### <div style="background: lightgray; padding: 8px;">RLPy.RDialogCallback.OnDialogHide(self)</div>
+</br>
+</br>
+
+> #### **RLPy.RDialogCallback.OnDialogHide(self)**
 &emsp;&emsp;该函数在窗口隐藏时被调用，一般窗口很少隐藏感觉。
 
 **参数：**
@@ -70,7 +73,11 @@ def run_script():
     rl_dialog.Show()
     rl_dialog.Hide()
 ```
-#### <div style="background: lightgray; padding: 8px;">RLPy.RDialogCallback.OnDialogClose(self)</div>
+
+</br>
+</br>
+
+> #### **RLPy.RDialogCallback.OnDialogClose(self)**
 &emsp;&emsp;该函数在窗口即将被关闭时被调用，在此之前会先调用回调函数 OnDialogHide()。
 
 **参数：**

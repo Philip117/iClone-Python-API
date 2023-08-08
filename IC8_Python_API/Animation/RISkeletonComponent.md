@@ -1,6 +1,6 @@
 # ICX Python API:RLPy RISkeletonComponent
-&emsp;&emsp;对应 [**<font color=RoyalBlue>官方网页</font>**]()。
-&ensp;&ensp;&ensp;&ensp;Corresponding [**<font color=RoyalBlue>official page</font>**]().
+&emsp;&emsp;对应 [**官方网页**]()。
+&ensp;&ensp;&ensp;&ensp;Corresponding [**official page**]().
 
 &emsp;&emsp;最后编辑：2023.08.07
 &ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.07
@@ -9,7 +9,7 @@ ___
 &emsp;&emsp;该类主要负责模型的骨骼和动画切片的管理。
 ___
 ### 类成员 - Class Methods
-#### <div style="background: lightgray; padding: 8px;">RLPy.RISkeletonComponent.AddClip(self, kTime)</div>
+> #### **RLPy.RISkeletonComponent.AddClip(self, kTime)**
 &emsp;&emsp;为模型添加一段切片。如果是 FBX 模型，则会返回 None。
 
 **参数：**
@@ -27,3 +27,6 @@ def run_script():
     clip = skeleton_component.AddClip(RLPy.RGlobal.GetTime())
     print(clip)
 ```
+
+</br>
+</br>

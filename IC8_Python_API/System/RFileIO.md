@@ -1,15 +1,15 @@
 # ICX Python API:RLPy RFileIO
-&emsp;&emsp;对应 [**<font color=RoyalBlue>官方网页</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO)。
-&ensp;&ensp;&ensp;&ensp;Corresponding [**<font color=RoyalBlue>official page</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO).
+&emsp;&emsp;对应 [**官方网页**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO)。
+&ensp;&ensp;&ensp;&ensp;Corresponding [**official page**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO).
 
 &emsp;&emsp;最后编辑：2023.08.03
 &ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.03
 ___
 ### 介绍 - Description
-&emsp;&emsp;这个类负责载入和保存文件，功能丰富，一般和 [**<font color=RoyalBlue>RApplication</font>**](./RApplication.md) 的函数配合使用。
+&emsp;&emsp;这个类负责载入和保存文件，功能丰富，一般和 [**RApplication**](./RApplication.md) 的函数配合使用。
 ___
 ### 类成员 - Class Methods
-#### <div style="background: lightgray; padding: 8px;">RLPy.RFileIO.LoadFile(strFilePath, bRecordStep = True)</div>
+> #### **RLPy.RFileIO.LoadFile(strFilePath, bRecordStep = True)**
 &emsp;&emsp;该函数负责导入文件到 iClone 场景中。需要注意的是，iClone 中的导入有不同的应用条件，例如：
 
 ①菜单栏导入：只能导入模型、物品、背景等文件，默认导入位置是场景的 (0, 0, 0) 位置，部分文件不可导入；

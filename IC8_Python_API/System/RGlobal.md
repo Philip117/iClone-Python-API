@@ -1,6 +1,6 @@
 # ICX Python API:RLPy RGlobal
-&emsp;&emsp;暂无对应 [**<font color=RoyalBlue>官方网页</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal)。
-&ensp;&ensp;&ensp;&ensp;No Corresponding [**<font color=RoyalBlue>official page</font>**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal).
+&emsp;&emsp;暂无对应 [**官方网页**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal)。
+&ensp;&ensp;&ensp;&ensp;No Corresponding [**official page**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal).
 
 &emsp;&emsp;最后编辑：2023.08.04
 &ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.04
@@ -9,7 +9,7 @@ ___
 &emsp;&emsp;该类主要负责宏观上的时间线、播放器、动画事件等管理。
 ___
 ### 类成员 - Class Methods
-#### <div style="background: lightgray; padding: 8px;">RLPy.RGlobal.GetTime()</div>
+> #### **RLPy.RGlobal.GetTime()**
 &emsp;&emsp;获取时间线当前的时间，即播放条当前位置对应的时间线时间，而非现实时间。
 
 **参数：**
@@ -26,7 +26,10 @@ def run_script():
     print(cur_time.ToInt())
 ```
 
-#### <div style="background: lightgray; padding: 8px;">RLPy.RGlobal.SetTime(kTime, bSendEvent=True)</div>
+</br>
+</br>
+
+> #### **RLPy.RGlobal.SetTime(kTime, bSendEvent=True)**
 &emsp;&emsp;设置时间线当前的时间，官方文档中未标明参数，阅读源码可以发现该函数有两个参数。
 
 **参数：**
