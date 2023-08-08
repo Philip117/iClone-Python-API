@@ -27,7 +27,7 @@ def run_script():
 ```
 
 #### <div style="background: lightgray; padding: 8px;">RLPy.RGlobal.SetTime(kTime, bSendEvent=True)</div>
-&emsp;&emsp;设置时间线当前的时间，官方文档中未标明参数，阅读源码可以发现该函数有两个参数。经过实测，在 iClone 8 中调用该函数，会自动在时间线对应位置创建一条长度为 1 帧的切片。
+&emsp;&emsp;设置时间线当前的时间，官方文档中未标明参数，阅读源码可以发现该函数有两个参数。
 
 **参数：**
 
