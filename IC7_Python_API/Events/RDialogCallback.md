@@ -12,7 +12,7 @@ ___
 \color{red}{警告：请勿将该类或子类创建为局部变量。}
 ___
 ### 类成员 - Class Methods
-#### <div style="background: lightgray; padding: 8px;">RLPy.RDialogCallback.OnDialogShow(self)</div>
+> #### <div style="background: lightgray; padding: 8px;">RLPy.RDialogCallback.OnDialogShow(self)</div>
 &emsp;&emsp;该函数在窗口显示时被调用。
 
 **参数：**
