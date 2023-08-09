@@ -1,4 +1,4 @@
-# ICX Python API:RLPy RDialogCallback
+# IC7 Python API:RLPy RDialogCallback
 &emsp;&emsp;对应 [**官方网页**](https://wiki.reallusion.com/IC_Python_API:RLPy_RDialogCallback)。
 &ensp;&ensp;&ensp;&ensp;Corresponding [**official page**](https://wiki.reallusion.com/IC_Python_API:RLPy_RDialogCallback).
 

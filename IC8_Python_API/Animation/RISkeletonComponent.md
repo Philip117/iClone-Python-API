@@ -1,4 +1,4 @@
-# ICX Python API:RLPy RISkeletonComponent
+# IC8 Python API:RLPy RISkeletonComponent
 &emsp;&emsp;对应 [**官方网页**]()。
 &ensp;&ensp;&ensp;&ensp;Corresponding [**official page**]().
 

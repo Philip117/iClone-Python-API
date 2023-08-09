@@ -1,4 +1,4 @@
-# ICX Python API:RLPy RFileIO
+# IC8 Python API:RLPy RFileIO
 &emsp;&emsp;对应 [**官方网页**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO)。
 &ensp;&ensp;&ensp;&ensp;Corresponding [**official page**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO).
 

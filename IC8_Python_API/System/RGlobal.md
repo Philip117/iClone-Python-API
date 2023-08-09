@@ -1,4 +1,4 @@
-# ICX Python API:RLPy RGlobal
+# IC8 Python API:RLPy RGlobal
 &emsp;&emsp;暂无对应 [**官方网页**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal)。
 &ensp;&ensp;&ensp;&ensp;No Corresponding [**official page**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RGlobal).
 
