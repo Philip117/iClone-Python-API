@@ -6,11 +6,11 @@
 &ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.14
 ___
 ### 介绍 - Description
-&emsp;&emsp;该类主要用于表示动画中的时间单位。
+&emsp;&emsp;该类主要用于表示动画中的时间。
 ___
 ### 类成员 - Class Methods
 > #### **RLPy.RTime.__init__(self, args)**
-&emsp;&emsp;该函数用于创建一个事件对象，单位毫秒。
+&emsp;&emsp;该函数用于创建一个时间对象，单位毫秒。
 
 **参数：**
 
