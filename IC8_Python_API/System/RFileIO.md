@@ -2,8 +2,8 @@
 &emsp;&emsp;对应 [**官方网页**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO)。
 &ensp;&ensp;&ensp;&ensp;Corresponding [**official page**](https://wiki.reallusion.com/IC8_Python_API:RLPy_RFileIO).
 
-&emsp;&emsp;最后编辑：2023.08.03
-&ensp;&ensp;&ensp;&ensp;Last modified: 2023.08.03
+&emsp;&emsp;最后编辑：2023.10.11
+&ensp;&ensp;&ensp;&ensp;Last modified: 2023.10.11
 ___
 ### 介绍 - Description
 &emsp;&emsp;这个类负责载入和保存文件，功能丰富，一般和 [**RApplication**](./RApplication.md) 的函数配合使用。目前可以加载与 iClone 相关的文件、对象、Alembic 文件，并且输出 FBX 文件。
