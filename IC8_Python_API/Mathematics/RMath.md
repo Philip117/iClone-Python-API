@@ -14,7 +14,7 @@ ___
 
 **参数：**
 
-&emsp;&emsp;**a** - any[IN/OUT]: 任意类型的值
+&emsp;&emsp;**a** - int/float[IN/OUT]: 任意类型的值
 
 **返回值：**
 
@@ -22,10 +22,34 @@ ___
 
 ``` python {.line-numbers}
 def run_script():
-    value1 = 1
-    value2 = 1.1
-    print(type(value1))
-    print(type(RLPy.RMath.Abs(value1)))
-    print(type(value2))
-    print(type(RLPy.RMath.Abs(value2)))
+    value1 = -1
+    value2 = -1.1
+    print(RLPy.RMath.Abs(value1))
+    print(type(RLPy.RMath.Abs(value1))) # 1.1
+    print(RLPy.RMath.Abs(value2))
+    print(type(RLPy.RMath.Abs(value2))) # 1.0
+```
+
+</br>
+</br>
+
+> #### **RLPy.RMath.AlmosyZero(tValue)**
+&emsp;&emsp;判断给定值是否接近 0。
+
+**参数：**
+
+&emsp;&emsp;**tValue** - any[IN]: 给定值
+
+**返回值：**
+
+&emsp;&emsp;return - bool[OUT]: 给定值是否接近 0
+
+``` python {.line-numbers}
+def run_script():
+    value1 = 0.1
+    value2 = 0.00001
+    value3 = 0.000001
+    print(RLPy.RMath.AlmostZero(value1))    # False
+    print(RLPy.RMath.AlmostZero(value2))    # True
+    print(RLPy.RMath.AlmostZero(value3))    # True
 ```
